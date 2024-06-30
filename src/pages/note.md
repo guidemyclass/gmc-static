@@ -5,9 +5,9 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 _Last updated_: June 24, 2024
 
-We at guidemyclass would like our esteemed customers to know that we are more than happy to do everything within our power to help you with your assignment. Nonetheless, there are situations in which the assignment is overly precise or may have grave consequences. We think it's polite to turn down orders that might affect our clients' confidence in our offerings and their academic performance. Following a thorough examination, we will really reject such orders.  
+We at guidemyclass would like our esteemed customers to know that we are more than happy to do everything within our power to help you with your assignment. Nonetheless, there are situations in which the assignment is overly precise or may have grave consequences. We think it's polite to turn down orders that might affect our clients' confidence in our offerings and their academic performance. Following a thorough examination, we will really reject such orders.
 
-These are the areas where these declines usually happen:  
+These are the areas where these declines usually happen:
 
 1. Engineering
 2. Civil Engineering

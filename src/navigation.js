@@ -56,29 +56,23 @@ export const footerData = {
       links: [
         { text: '+447365270700', href: 'tel:447365270700' },
         { text: 'support@guidemyclass.com', href: 'mailto:support@guidemyclass.com' },
-        { text: '16 Crescent Ln, London'},
-        { text: 'SW4 9PU, UK'},
+        { text: '16 Crescent Ln, London' },
+        { text: 'SW4 9PU, UK' },
       ],
     },
     {
       title: 'We Accept',
       links: [
-        { text: 'VISA'},
-        { text: 'Mastercard'},
-        { text: 'American Express'},
-        { text: 'Discover'},
-        { text: 'Ideal'},
+        { text: 'VISA' },
+        { text: 'Mastercard' },
+        { text: 'American Express' },
+        { text: 'Discover' },
+        { text: 'Ideal' },
       ],
     },
     {
       title: 'Global Offices',
-      links: [
-        { text: 'US'},
-        { text: 'UK'},
-        { text: 'Netherlands'},
-        { text: 'Canada'},
-        { text: 'Singapore'},
-      ],
+      links: [{ text: 'US' }, { text: 'UK' }, { text: 'Netherlands' }, { text: 'Canada' }, { text: 'Singapore' }],
     },
   ],
   secondaryLinks: [

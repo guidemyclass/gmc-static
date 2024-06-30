@@ -5,9 +5,9 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 _Last updated_: June 24, 2024
 
-The trust you have in us at guidemyclass to produce high-caliber, plagiarism-free papers inspires us. As a result, we provide our clients with the option to use our Free Inquiry System to place orders without having to submit a down payment upfront.  
+The trust you have in us at guidemyclass to produce high-caliber, plagiarism-free papers inspires us. As a result, we provide our clients with the option to use our Free Inquiry System to place orders without having to submit a down payment upfront.
 
-Following a request for information, we will:  
+Following a request for information, we will:
 
 1. Examine the paper's instructions in detail and consider how complex they are.
 2. Locate a proficient writer that is the ideal candidate to produce a report that exceeds your expectations.
