@@ -1,7 +1,7 @@
 site:
   name: GuideMyClass Researchers
   site: 'https://guidemyclass.github.io/guidemyclass/'
-  base: '/'
+  base: '/gmc-static'
   trailingSlash: false
 
   googleSiteVerificationId: false
