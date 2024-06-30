@@ -1,8 +1,8 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
-import ContactUs from '~/components/widgets/Contact.astro';
-import Features2 from '~/components/widgets/Features2.astro';
+//import ContactUs from '~/components/widgets/Contact.astro';
+import Steps2 from '~/components/widgets/Steps2.astro';
 
 const metadata = {
   title: 'Contact',
@@ -14,6 +14,7 @@ const metadata = {
 
   <HeroText tagline="Contact" title="Let's Connect!" />
 
+  <!-- 
   <ContactUs
     id="form"
     title="Drop us a message today!"
@@ -39,41 +40,49 @@ const metadata = {
     }}
     description="Our support team typically responds within 24 business hours."
   />
+  -->
 
-  <!-- Features2 Widget ************** -->
+  <!-- Steps2 Widget ****************** -->
 
-  <Features2
-    title="We are here to help!"
+  <Steps2
+    title="Reach out to us"
+    subtitle="For quicker answers, explore our FAQs section. You may find the solution you're looking  for right there! If not, our support team is delighted to help you."
+    callToAction={{
+      text: 'FAQs',
+      href: '/faqs',
+    }}
     items={[
       {
-        title: 'General support',
-        description: `Chat with us for inquiries related to account management, website navigation, payment issues, accessing purchased templates or general questions about the website's functionality.`,
+        title: 'WhatsApp us',
+        description: "<a href='https://wa.link/guidemyclass', target='_blank'>GuideMyClass</a>",
+        icon: 'tabler:brand-whatsapp',
       },
       {
-        title: 'Contact sales',
-        description:
-          'Chat with us for questions about purchases, customization options, licensing for commercial use, inquiries about specific template, etc.',
-      },
-      {
-        title: 'Technical support',
-        description:
-          'Chat with us when facing issues like template installation, problems editing difficulties, compatibility issues with software or download errors, or other technical challenges related to using the templates.',
-      },
-      {
-        title: 'Phone',
-        description: '+1 (234) 567-890',
-        icon: 'tabler:headset',
-      },
-      {
-        title: 'Email',
-        description: 'contact@support.com',
+        title: 'Email us',
+        description: "<a href='mailto:support@guidemyclass.com'>support@guidemyclass.com</a>",
         icon: 'tabler:mail',
       },
       {
-        title: 'Location',
-        description: '1234 Lorem Ipsum St, 12345, Miami, EEUU',
-        icon: 'tabler:map-pin',
+        title: 'Telegram us',
+        description: "<a href='http://t.me/guidemyclass', target='_blank'>@guidemyclass</a>",
+        icon: 'tabler:brand-telegram',
+      },
+      {
+        title: 'WeChat us',
+        description: "<a href='https://u.wechat.com/kJaHNGiI-vTnCM4qcrUEY4s', target='_blank'>@privyprofessor</a>",
+        icon: 'tabler:brand-wechat',
+      },
+      {
+        title: 'Join our Discord',
+        description: "<a href='https://discord.gg/zxfG3s3aXH', target='_blank'>GuideMyClass</a>",
+        icon: 'tabler:brand-discord',
+      },
+      {
+        title: 'Join our WhatsApp group',
+        description: "<a href='https://chat.whatsapp.com/CbdPRJ1rSKmFhS6xzX4sFO', target='_blank'>GuideMyClass</a>",
+        icon: 'tabler:brand-whatsapp',
       },
     ]}
   />
+
 </Layout>

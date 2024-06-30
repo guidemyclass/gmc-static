@@ -1,183 +1,97 @@
-import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
+import { getPermalink } from './utils/permalinks';
 
 export const headerData = {
   links: [
     {
-      text: 'Homes',
+      text: 'Pricing',
+      href: getPermalink('/pricing'),
+    },
+    {
+      text: 'About',
+      href: getPermalink('/about'),
+    },
+    {
+      text: 'Services',
+      href: getPermalink('/services'),
+    },
+    {
+      text: 'Contact',
+      href: getPermalink('/contact'),
+    },
+    {
+      text: 'Guarantees',
       links: [
         {
-          text: 'SaaS',
-          href: getPermalink('/homes/saas'),
+          text: 'Social Note',
+          href: getPermalink('/note'),
         },
         {
-          text: 'Startup',
-          href: getPermalink('/homes/startup'),
-        },
-        {
-          text: 'Mobile App',
-          href: getPermalink('/homes/mobile-app'),
-        },
-        {
-          text: 'Personal',
-          href: getPermalink('/homes/personal'),
+          text: 'Capability-Assurance Policy',
+          href: getPermalink('/policy'),
         },
       ],
     },
     {
-      text: 'Pages',
-      links: [
-        {
-          text: 'Features (Anchor Link)',
-          href: getPermalink('/#features'),
-        },
-        {
-          text: 'Services',
-          href: getPermalink('/services'),
-        },
-        {
-          text: 'Pricing',
-          href: getPermalink('/pricing'),
-        },
-        {
-          text: 'About us',
-          href: getPermalink('/about'),
-        },
-        {
-          text: 'Contact',
-          href: getPermalink('/contact'),
-        },
-        {
-          text: 'Terms',
-          href: getPermalink('/terms'),
-        },
-        {
-          text: 'Privacy policy',
-          href: getPermalink('/privacy'),
-        },
-      ],
-    },
-    {
-      text: 'Landing',
-      links: [
-        {
-          text: 'Lead Generation',
-          href: getPermalink('/landing/lead-generation'),
-        },
-        {
-          text: 'Long-form Sales',
-          href: getPermalink('/landing/sales'),
-        },
-        {
-          text: 'Click-Through',
-          href: getPermalink('/landing/click-through'),
-        },
-        {
-          text: 'Product Details (or Services)',
-          href: getPermalink('/landing/product'),
-        },
-        {
-          text: 'Coming Soon or Pre-Launch',
-          href: getPermalink('/landing/pre-launch'),
-        },
-        {
-          text: 'Subscription',
-          href: getPermalink('/landing/subscription'),
-        },
-      ],
-    },
-    {
-      text: 'Blog',
-      links: [
-        {
-          text: 'Blog List',
-          href: getBlogPermalink(),
-        },
-        {
-          text: 'Article',
-          href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
-        },
-        {
-          text: 'Article (with MDX)',
-          href: getPermalink('markdown-elements-demo-post', 'post'),
-        },
-        {
-          text: 'Category Page',
-          href: getPermalink('tutorials', 'category'),
-        },
-        {
-          text: 'Tag Page',
-          href: getPermalink('astro', 'tag'),
-        },
-      ],
-    },
-    {
-      text: 'Widgets',
-      href: '#',
+      text: 'FAQs',
+      href: getPermalink('/faqs'),
     },
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
+  actions: [{ text: 'Order Now', href: getPermalink('/contact'), target: '_blank' }],
 };
 
 export const footerData = {
   links: [
     {
-      title: 'Product',
+      title: 'Quick Links',
       links: [
-        { text: 'Features', href: '#' },
-        { text: 'Security', href: '#' },
-        { text: 'Team', href: '#' },
-        { text: 'Enterprise', href: '#' },
-        { text: 'Customer stories', href: '#' },
-        { text: 'Pricing', href: '#' },
-        { text: 'Resources', href: '#' },
+        { text: 'Pricing', href: getPermalink('/pricing') },
+        { text: 'About', href: getPermalink('/about') },
+        { text: 'Services', href: getPermalink('/services') },
+        { text: 'Contact', href: getPermalink('/contact') },
+        { text: 'FAQs', href: getPermalink('/faqs') },
       ],
     },
     {
-      title: 'Platform',
+      title: 'Contacts',
       links: [
-        { text: 'Developer API', href: '#' },
-        { text: 'Partners', href: '#' },
-        { text: 'Atom', href: '#' },
-        { text: 'Electron', href: '#' },
-        { text: 'AstroWind Desktop', href: '#' },
+        { text: '+447365270700', href: 'tel:447365270700' },
+        { text: 'support@guidemyclass.com', href: 'mailto:support@guidemyclass.com' },
+        { text: '16 Crescent Ln, London'},
+        { text: 'SW4 9PU, UK'},
       ],
     },
     {
-      title: 'Support',
+      title: 'We Accept',
       links: [
-        { text: 'Docs', href: '#' },
-        { text: 'Community Forum', href: '#' },
-        { text: 'Professional Services', href: '#' },
-        { text: 'Skills', href: '#' },
-        { text: 'Status', href: '#' },
+        { text: 'VISA'},
+        { text: 'Mastercard'},
+        { text: 'American Express'},
+        { text: 'Discover'},
+        { text: 'Ideal'},
       ],
     },
     {
-      title: 'Company',
+      title: 'Global Offices',
       links: [
-        { text: 'About', href: '#' },
-        { text: 'Blog', href: '#' },
-        { text: 'Careers', href: '#' },
-        { text: 'Press', href: '#' },
-        { text: 'Inclusion', href: '#' },
-        { text: 'Social Impact', href: '#' },
-        { text: 'Shop', href: '#' },
+        { text: 'US'},
+        { text: 'UK'},
+        { text: 'Netherlands'},
+        { text: 'Canada'},
+        { text: 'Singapore'},
       ],
     },
   ],
   secondaryLinks: [
-    { text: 'Terms', href: getPermalink('/terms') },
-    { text: 'Privacy Policy', href: getPermalink('/privacy') },
+    { text: 'Social Note', href: getPermalink('/note') },
+    { text: 'Capability-Assurance Policy', href: getPermalink('/policy') },
   ],
   socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
-    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },
+    { ariaLabel: 'Discord', icon: 'tabler:brand-discord', href: 'https://discord.gg/mcznSPXM' },
+    { ariaLabel: 'Mail', icon: 'tabler:mail', href: 'mailto:guidemyclass@gmail.com' },
+    { ariaLabel: 'Telegram', icon: 'tabler:brand-telegram', href: 'https://t.me/bigjrrr' },
+    { ariaLabel: 'WhatsApp', icon: 'tabler:brand-whatsapp', href: 'https://api.whatsapp.com/send?phone=254745613178' },
   ],
   footNote: `
-    <img class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm" src="https://onwidget.com/favicon/favicon-32x32.png" alt="onWidget logo" loading="lazy"></img>
-    Made by <a class="text-blue-600 underline dark:text-muted" href="https://onwidget.com/"> onWidget</a> · All rights reserved.
+    GuideMyClass Researchers · All rights reserved 2024.
   `,
 };
