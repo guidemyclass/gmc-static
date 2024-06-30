@@ -1,6 +1,6 @@
 site:
   name: GuideMyClass Researchers
-  site: 'https://guidemyclass.github.io'
+  site: 'https://guidemyclass.github.io/guidemyclass/'
   base: '/'
   trailingSlash: false
 
