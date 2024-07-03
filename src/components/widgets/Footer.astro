@@ -15,7 +15,6 @@ interface Link {
 interface iconLinks {
   title?: string;
   links: Array<Link>;
-  ariaLabel?: string;
   icon?: string;
 }
 
@@ -87,11 +86,10 @@ const { socialLinks = [], secondaryLinks = [], links = [], icons = [], footNote 
             <div class="dark:text-gray-300 font-medium mb-2">{title}</div>
             {links && Array.isArray(links) && links.length > 0 && (
               <ul class="grid grid-cols-3 text-sm">
-                {links.map(({ ariaLabel, icon }) => (
+                {links.map(({ icon }) => (
                   <li class="mb-1">
                     <p
                       class="text-muted dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
-                      aria-label={ariaLabel}
                     >
                       {icon && <Icon name={icon} class="w-6 h-6" />}
                     </p>
