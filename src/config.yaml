@@ -1,5 +1,5 @@
 site:
-  name: GuideMyClass Researchers
+  name: GuideMyClass
   site: 'https://guidemyclass.com/'
   base: '/'
   trailingSlash: false
@@ -9,7 +9,7 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: GuideMyClass Researchers
+    default: GuideMyClass
     template: '%s — GuideMyClass'
   description: "\U0001F680 We write your papers, you get top grades."
   robots:

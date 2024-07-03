@@ -56,23 +56,31 @@ export const footerData = {
       links: [
         { text: '+447365270700', href: 'tel:447365270700' },
         { text: 'support@guidemyclass.com', href: 'mailto:support@guidemyclass.com' },
-        { text: '16 Crescent Ln, London' },
-        { text: 'SW4 9PU, UK' },
+        { text: '16 Crescent Ln, London', href:'#' },
+        { text: 'SW4 9PU, UK', href:'#' },
       ],
     },
+  ],
+  iconLinks: [
     {
       title: 'We Accept',
       links: [
-        { text: 'VISA' },
-        { text: 'Mastercard' },
-        { text: 'American Express' },
-        { text: 'Discover' },
-        { text: 'Ideal' },
+        { ariaLabel: 'VISA', icon: 'logos:visa' },
+        { ariaLabel: 'Mastercard', icon: 'logos:mastercard' },
+        { ariaLabel: 'American Express', icon: 'logos:amex' },
+        { ariaLabel: 'Discover', icon: 'logos:discover' },
       ],
     },
     {
       title: 'Global Offices',
-      links: [{ text: 'US' }, { text: 'UK' }, { text: 'Netherlands' }, { text: 'Canada' }, { text: 'Singapore' }],
+      links: [
+        { ariaLabel: 'Canada', icon: 'flag:ca-4x3' },
+        { ariaLabel: 'Kenya', icon: 'flag:ke-4x3' },
+        { ariaLabel: 'Netherlands', icon: 'flag:nl-4x3' },
+        { ariaLabel: 'Singapore', icon: 'flag:sg-4x3' },
+        { ariaLabel: 'United States', icon: 'flag:us-4x3' },
+        { ariaLabel: 'United Kingdom', icon: 'flag:gb-4x3' },
+      ],
     },
   ],
   secondaryLinks: [
@@ -80,12 +88,12 @@ export const footerData = {
     { text: 'Capability-Assurance Policy', href: getPermalink('/policy') },
   ],
   socialLinks: [
-    { ariaLabel: 'Discord', icon: 'tabler:brand-discord', href: 'https://discord.gg/mcznSPXM' },
-    { ariaLabel: 'Mail', icon: 'tabler:mail', href: 'mailto:guidemyclass@gmail.com' },
-    { ariaLabel: 'Telegram', icon: 'tabler:brand-telegram', href: 'https://t.me/bigjrrr' },
-    { ariaLabel: 'WhatsApp', icon: 'tabler:brand-whatsapp', href: 'https://api.whatsapp.com/send?phone=254745613178' },
+    { ariaLabel: 'Discord', icon: 'tabler:brand-discord', href: 'https://discord.gg/zxfG3s3aXH' },
+    { ariaLabel: 'Mail', icon: 'tabler:mail', href: 'mailto:support@guidemyclass.com' },
+    { ariaLabel: 'Telegram', icon: 'tabler:brand-telegram', href: 'http://t.me/guidemyclass' },
+    { ariaLabel: 'WhatsApp', icon: 'tabler:brand-whatsapp', href: 'https://wa.link/guidemyclass' },
   ],
   footNote: `
-    GuideMyClass Researchers · All rights reserved 2024.
+    GuideMyClass · All rights reserved ©2024.
   `,
 };

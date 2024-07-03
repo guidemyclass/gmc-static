@@ -1,7 +1,6 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
-//import ContactUs from '~/components/widgets/Contact.astro';
 import Steps2 from '~/components/widgets/Steps2.astro';
 
 const metadata = {
@@ -14,38 +13,9 @@ const metadata = {
 
   <HeroText tagline="Contact" title="Let's Connect!" />
 
-  <!-- 
-  <ContactUs
-    id="form"
-    title="Drop us a message today!"
-    subtitle="For quicker answers, explore our FAQs section. You may find the solution you're looking  for right there! If not, our support team is delighted to help you."
-    inputs={[
-      {
-        type: 'text',
-        name: 'name',
-        label: 'Name',
-      },
-      {
-        type: 'email',
-        name: 'email',
-        label: 'Email',
-      },
-    ]}
-    textarea={{
-      label: 'Message',
-    }}
-    disclaimer={{
-      label:
-        'By submitting this contact form, you acknowledge and agree to the collection of your personal information.',
-    }}
-    description="Our support team typically responds within 24 business hours."
-  />
-  -->
-
   <!-- Steps2 Widget ****************** -->
 
   <Steps2
-    title="Reach out to us"
     subtitle="For quicker answers, explore our FAQs section. You may find the solution you're looking  for right there! If not, our support team is delighted to help you."
     callToAction={{
       text: 'FAQs',
@@ -54,33 +24,45 @@ const metadata = {
     items={[
       {
         title: 'WhatsApp us',
-        description: "<a href='https://wa.link/guidemyclass', target='_blank'>GuideMyClass</a>",
+        description: "GuideMyClass",
+        href: 'https://wa.link/guidemyclass',
         icon: 'tabler:brand-whatsapp',
+        color: 'bg-green-500'
       },
       {
         title: 'Email us',
-        description: "<a href='mailto:support@guidemyclass.com'>support@guidemyclass.com</a>",
+        description: "support@guidemyclass.com",
+        href: 'mailto:support@guidemyclass.com',
         icon: 'tabler:mail',
+        color: 'bg-primary'
       },
       {
         title: 'Telegram us',
-        description: "<a href='http://t.me/guidemyclass', target='_blank'>@guidemyclass</a>",
+        description: "@guidemyclass",
+        href: 'http://t.me/guidemyclass',
         icon: 'tabler:brand-telegram',
+        color: 'bg-blue-400'
       },
       {
         title: 'WeChat us',
-        description: "<a href='https://u.wechat.com/kJaHNGiI-vTnCM4qcrUEY4s', target='_blank'>@privyprofessor</a>",
+        description: "@privyprofessor",
+        href: 'https://u.wechat.com/kJaHNGiI-vTnCM4qcrUEY4s',
         icon: 'tabler:brand-wechat',
+        color: 'bg-green-600'
       },
       {
         title: 'Join our Discord',
-        description: "<a href='https://discord.gg/zxfG3s3aXH', target='_blank'>GuideMyClass</a>",
-        icon: 'tabler:brand-discord',
+        description: "GuideMyClass",
+        href: 'https://discord.gg/zxfG3s3aXH',
+        icon: 'tabler:brand-discord-filled',
+        color: 'bg-indigo-600'
       },
       {
-        title: 'Join our WhatsApp group',
-        description: "<a href='https://chat.whatsapp.com/CbdPRJ1rSKmFhS6xzX4sFO', target='_blank'>GuideMyClass</a>",
+        title: 'WhatsApp group',
+        description: "GuideMyClass",
+        href: 'https://chat.whatsapp.com/CbdPRJ1rSKmFhS6xzX4sFO',
         icon: 'tabler:brand-whatsapp',
+        color: 'bg-green-500'
       },
     ]}
   />
