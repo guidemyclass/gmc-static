@@ -12,6 +12,13 @@ interface Link {
   icon?: string;
 }
 
+interface iconLinks {
+  title?: string;
+  links: Array<Link>;
+  ariaLabel?: string;
+  icon?: string;
+}
+
 interface Links {
   title?: string;
   links: Array<Link>;
@@ -19,14 +26,14 @@ interface Links {
 
 export interface Props {
   links: Array<Links>;
-  iconLinks: Array<Link>;
+  icons: Array<iconLinks>;
   secondaryLinks: Array<Link>;
   socialLinks: Array<Link>;
   footNote?: string;
   theme?: string;
 }
 
-const { socialLinks = [], secondaryLinks = [], links = [], iconLinks = [], footNote = '', theme = 'light' } = Astro.props;
+const { socialLinks = [], secondaryLinks = [], links = [], icons = [], footNote = '', theme = 'light' } = Astro.props;
 ---
 
 <footer class:list={[{ dark: theme === 'dark' }, 'relative border-t border-gray-200 dark:border-slate-800 not-prose']}>
@@ -75,7 +82,7 @@ const { socialLinks = [], secondaryLinks = [], links = [], iconLinks = [], footN
         ))
       }
       {
-        iconLinks.map(({ title, links }) => (
+        icons.map(({ title, links }) => (
           <div class="col-span-6 md:col-span-3 lg:col-span-2">
             <div class="dark:text-gray-300 font-medium mb-2">{title}</div>
             {links && Array.isArray(links) && links.length > 0 && (

@@ -61,7 +61,7 @@ export const footerData = {
       ],
     },
   ],
-  iconLinks: [
+  icons: [
     {
       title: 'We Accept',
       links: [
