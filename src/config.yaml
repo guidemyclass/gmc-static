@@ -10,7 +10,7 @@ site:
 metadata:
   title:
     default: GuideMyClass
-    template: '%s — GuideMyClass'
+    template: '%s - GuideMyClass'
   description: "\U0001F680 We write your papers, you get top grades."
   robots:
     index: true
@@ -23,8 +23,8 @@ metadata:
         height: 628
     type: website
   twitter:
-    handle: '@onwidget'
-    site: '@onwidget'
+    handle: '@guidemyclass'
+    site: '@guidemyclass'
     cardType: summary_large_image
 
 i18n:
