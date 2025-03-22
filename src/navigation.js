@@ -88,12 +88,11 @@ export const footerData = {
     { text: 'Capability-Assurance Policy', href: getPermalink('/policy') },
   ],
   socialLinks: [
-    { ariaLabel: 'Discord', icon: 'tabler:brand-discord', href: 'https://discord.gg/zxfG3s3aXH' },
-    { ariaLabel: 'Mail', icon: 'tabler:mail', href: 'mailto:support@guidemyclass.com' },
-    { ariaLabel: 'Telegram', icon: 'tabler:brand-telegram', href: 'http://t.me/guidemyclass' },
-    { ariaLabel: 'WhatsApp', icon: 'tabler:brand-whatsapp', href: 'https://wa.link/guidemyclass' },
+    { ariaLabel: 'Mail', icon: 'tabler:mail', href: 'mailto:writers@essaysinn.com' },
+    { ariaLabel: 'Telegram', icon: 'tabler:brand-telegram', href: 'http://t.me/essaysinn' },
+    { ariaLabel: 'WhatsApp', icon: 'tabler:brand-whatsapp', href: 'https://wa.link/essaysinn' },
   ],
   footNote: `
-    GuideMyClass · All rights reserved ©2024.
+    GuideMyClass · All rights reserved ©2025.
   `,
 };
