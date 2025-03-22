@@ -54,10 +54,10 @@ export const footerData = {
     {
       title: 'Contacts',
       links: [
-        { text: '+447365270700', href: 'tel:447365270700' },
+        { text: '+254745613178', href: 'tel:+254745613178' },
         { text: 'support@guidemyclass.com', href: 'mailto:support@guidemyclass.com' },
-        { text: '16 Crescent Ln, London', href:'#' },
-        { text: 'SW4 9PU, UK', href:'#' },
+        { text: 'Nairobi, Kenya', href:'#' },
+        { text: 'Thika, Kiambu', href:'#' },
       ],
     },
   ],
