@@ -1,6 +1,6 @@
 site:
-  name: GuideMyClass
-  site: 'https://guidemyclass.com/'
+  name: EssaysInn
+  site: 'https://essaysinn.com/'
   base: '/'
   trailingSlash: false
 
@@ -9,22 +9,22 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: GuideMyClass
-    template: '%s - GuideMyClass'
+    default: EssaysInn
+    template: '%s - EssaysInn'
   description: "\U0001F680 We write your papers, you get top grades."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: GuideMyClass
+    site_name: EssaysInn
     images:
       - url: '~/assets/images/default.png'
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: '@guidemyclass'
-    site: '@guidemyclass'
+    handle: '@essaysinn'
+    site: '@essaysinn'
     cardType: summary_large_image
 
 i18n:

@@ -55,7 +55,7 @@ export const footerData = {
       title: 'Contacts',
       links: [
         { text: '+254745613178', href: 'tel:+254745613178' },
-        { text: 'support@guidemyclass.com', href: 'mailto:support@guidemyclass.com' },
+        { text: 'support@essaysinn.com', href: 'mailto:support@essaysinn.com' },
         { text: 'Nairobi, Kenya', href:'#' },
         { text: 'Thika, Kiambu', href:'#' },
       ],
@@ -93,6 +93,6 @@ export const footerData = {
     { ariaLabel: 'WhatsApp', icon: 'tabler:brand-whatsapp', href: 'https://wa.link/essaysinn' },
   ],
   footNote: `
-    GuideMyClass · All rights reserved ©2025.
+    EssaysInn · All rights reserved 2025.
   `,
 };

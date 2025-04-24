@@ -24,11 +24,11 @@ You have the opportunity to submit a free inquiry and receive an initial assessm
 The most important thing to remember is to answer the question of whether our service is legal for yourself by determining whether learning is permitted.
 That is to say, our service offers the same kind of support you would receive, example, if you sought out a tutor who was an expert in your particular field of study.
 It is LEGAL and NOT against any college or university policy to use our service. If you properly cite the original work, our product—which acts as a source and raw material for your own paper—cannot be construed as plagiarism.
-You should also be aware that the paper you buy from guidemyclass.com is your sole possession, and only you have access to it. It is entirely up to you how you choose to use it.
+You should also be aware that the paper you buy from essaysinn.com is your sole possession, and only you have access to it. It is entirely up to you how you choose to use it.
 
 ## How will I receive the completed paper?
 
-After your project is finished, you will receive a phone call or email notification. To obtain a finished copy of your work, you must sign into your guidemyclass.com account and accept the preview version. The finalized version of your paper with a watermark is the preview version. If you are unhappy with the paper, you must carefully read the preview version and make the appropriate amendment remarks. Please request a revision rather than clicking the ACCEPT button if one is needed. You can only click the ACCEPT button once you're satisfied with the paper and would like to receive the MS Word version of it.
+After your project is finished, you will receive a phone call or email notification. To obtain a finished copy of your work, you must sign into your essaysinn.com account and accept the preview version. The finalized version of your paper with a watermark is the preview version. If you are unhappy with the paper, you must carefully read the preview version and make the appropriate amendment remarks. Please request a revision rather than clicking the ACCEPT button if one is needed. You can only click the ACCEPT button once you're satisfied with the paper and would like to receive the MS Word version of it.
 
 ## What do I do if I am not satisfied with the delivered paper?
 
@@ -73,9 +73,9 @@ You can pay using American Express, Discover, iDeal, Visa, and Mastercard cards.
 
 Indeed. Please feel free to use our message system, which enables you to get in touch with your writer or one of our Customer Support Representatives at any time if you would want to speak with them directly. To send a message, simply look up your order number in the control panel and select the recipient. Every time there is a new message, you will be notified via email for your convenience. You are not permitted to provide the writer with your personal information or request that they provide it to you for security reasons.
 
-## How does the guidemyclass.com work?
+## How does the essaysinn.com work?
 
-Using guidemyclass.com to order a paper is simple and quick. After we guarantee that we have a writer to finish your paper, pay and then wait for your assignment to be finished by the date you choose.
+Using essaysinn.com to order a paper is simple and quick. After we guarantee that we have a writer to finish your paper, pay and then wait for your assignment to be finished by the date you choose.
 As soon as you are able to upload any necessary materials and provide us precise instructions, you may begin the ordering process by completing the inquiry form.
 
 Let's examine our service's operation in more detail:
@@ -114,7 +114,7 @@ Indeed. All of our work is entirely unique and appropriately referenced in accor
 
 You can place an order, monitor its status, and upload necessary resources that might help with your tasks on the Order Personal Page. Additionally, you can message an administrator and the author of your paper using this website. For ease of use, every Personal Order Page includes:
 
-- The "Your Orders" option lists all of your previous and ongoing projects and assists you in monitoring the status of your order with guidemyclass.com.
+- The "Your Orders" option lists all of your previous and ongoing projects and assists you in monitoring the status of your order with essaysinn.com.
 - Orders can be placed via the "New Order" tab.
 - The "Profile" area allows you to modify your password and holds the personal data you entered.
-- Every order you place on guidemyclass.com also gives you access to your "Order Info" and the "Messages" tab, which allows you to get in touch with both your writer and an administrator.
+- Every order you place on essaysinn.com also gives you access to your "Order Info" and the "Messages" tab, which allows you to get in touch with both your writer and an administrator.
