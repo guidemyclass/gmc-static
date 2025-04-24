@@ -55,7 +55,7 @@ export const footerData = {
       title: 'Contacts',
       links: [
         { text: '+254745613178', href: 'tel:+254745613178' },
-        { text: 'support@essaysinn.com', href: 'mailto:support@essaysinn.com' },
+        { text: 'writers@essaysinn.com', href: 'mailto:writers@essaysinn.com' },
         { text: 'Nairobi, Kenya', href:'#' },
         { text: 'Thika, Kiambu', href:'#' },
       ],
