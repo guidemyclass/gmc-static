@@ -54,10 +54,10 @@ export const footerData = {
     {
       title: 'Contacts',
       links: [
-        { text: '+254745613178', href: 'tel:+254745613178' },
+        { text: '+44 7365 270700', href: 'tel:+447365270700' },
         { text: 'writers@essaysinn.com', href: 'mailto:writers@essaysinn.com' },
-        { text: 'Nairobi, Kenya', href:'#' },
-        { text: 'Thika, Kiambu', href:'#' },
+        { text: 'MI1 Mitcham Park, Goat Road', href:'#' },
+        { text: 'Mitcham, CR4 4HQ', href:'#' },
       ],
     },
   ],
